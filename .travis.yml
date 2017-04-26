@@ -3,4 +3,4 @@ language: c
 compiler:
   - gcc
 
-script: make test
+script: makde dep && make test
