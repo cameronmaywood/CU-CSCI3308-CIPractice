@@ -3,4 +3,4 @@ language: c
 compiler:
   - gcc
 
-#script: ./geometry_test
+script: make test
