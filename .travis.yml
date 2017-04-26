@@ -3,4 +3,7 @@ language: c
 compiler:
   - gcc
 
+before-script: 
+  - sudo apt-get install check
+
 script: make test
